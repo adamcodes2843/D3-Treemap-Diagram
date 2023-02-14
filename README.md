@@ -1,5 +1,7 @@
 # D3 Treemap Diagram
 
+['demo'](https://adamcodes2843.github.io/D3-Treemap-Diagram/)
+
 ## freeCodeCamp Data Visualization Project
 
 This is the final project for freecodecamps Data Visualization Certificate, but seeing things like this [d3.js graph gallery](https://d3-graph-gallery.com/index.html) and 20 hour d3 instructional guides on youtube, I can see that I'm just scratching the surface. Followed Ganesh's channel for help with some of the new material.
