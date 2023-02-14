@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <title>Treemap Diagram</title>
+</head>
+<body>
+    <h1 id="title">Video Game Sales</h1>
+    <h2 id="description">Top 100 Most Sold Video Games Grouped by Platform</h2>
+    <svg id="canvas"></svg>
+    <div id="tooltip"></div>
+    <svg id="legend">
+        <g>
+            <rect class="legend-item" x="0" y="10" width="30" height="30" fill="lightsteelblue"></rect>
+            <text x="40" y="32">Wii</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="0" y="60" width="30" height="30" fill="lightblue"></rect>
+            <text x="40" y="82">DS</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="0" y="110" width="30" height="30" fill="orange"></rect>
+            <text x="40" y="132">X360</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="0" y="160" width="30" height="30" fill="coral"></rect>
+            <text x="40" y="182">GB</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="100" y="10" width="30" height="30" fill="aquamarine"></rect>
+            <text x="140" y="32">PS3</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="100" y="60" width="30" height="30" fill="darkseagreen"></rect>
+            <text x="140" y="82">NES</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="100" y="110" width="30" height="30" fill="lightseagreen"></rect>
+            <text x="140" y="132">PS2</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="100" y="160" width="30" height="30" fill="indianred"></rect>
+            <text x="140" y="182">3DS</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="200" y="10" width="30" height="30" fill="lightsalmon"></rect>
+            <text x="240" y="32">PS4</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="200" y="60" width="30" height="30" fill="violet"></rect>
+            <text x="240" y="82">SNES</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="200" y="110" width="30" height="30" fill="lightcoral"></rect>
+            <text x="240" y="132">PS</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="200" y="160" width="30" height="30" fill="pink"></rect>
+            <text x="240" y="182">N64</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="300" y="10" width="30" height="30" fill="tan"></rect>
+            <text x="340" y="32">GBA</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="300" y="60" width="30" height="30" fill="plum"></rect>
+            <text x="340" y="82">XB</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="300" y="110" width="30" height="30" fill="yellow"></rect>
+            <text x="340" y="132">PC</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="300" y="160" width="30" height="30" fill="gold"></rect>
+            <text x="340" y="182">2600</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="400" y="10" width="30" height="30" fill="linen"></rect>
+            <text x="440" y="32">PSP</text>
+        </g>
+        <g>
+            <rect class="legend-item" x="400" y="60" width="30" height="30" fill="lightgrey"></rect>
+            <text x="440" y="82">XOne</text>
+        </g>
+    </svg>
+</body>
+<script src="./script.js"></script>
+</html>
